@@ -1,4 +1,4 @@
-package Principal.list.Ordenacao;
+package List.Ordenacao;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -13,7 +13,12 @@ public class OrdenacaoPessoas {
     }
 
     public void adicionarPessoa(String nome, int idade, double altura) {
-        pessoaList.add(new Pessoa(nome, idade, altura));
+        pessoaList.add(new Pessoa(nome, idade, altura) {
+            @Override
+            public int compareTo(Object o) {
+                return 0;
+            }
+        });
     }
 
     public List<Pessoa> ordenarPorIdade() {

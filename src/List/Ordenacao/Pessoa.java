@@ -1,8 +1,8 @@
-package Principal.list.Ordenacao;
+package List.Ordenacao;
 
 import java.util.Comparator;
 
-public class Pessoa implements Comparable {
+public abstract class Pessoa implements Comparable, Pessoas {
 
     private String nome;
 

@@ -28,12 +28,12 @@
 Exercícios:
 
 1. Operações Básicas com List
-2. Pesquisa em List
+2. PastaPs em List
 3. Ordenação nas List
 
 ## Operações Básicas com List
 
-### 1. Lista de Tarefas
+### 1. List de Tarefas
 <p>Crie uma classe chamada "ListaTarefas" que possui uma lista de tarefas como atributo. Cada tarefa é representada por uma classe chamada "Tarefa" que possui um atributo de descrição. Implemente os seguintes métodos:
 
 - `adicionarTarefa(String descricao)`: Adiciona uma nova tarefa à lista com a descrição fornecida.
@@ -54,16 +54,16 @@ Exercícios:
 
 ----
 
-## Pesquisa em List
+## PastaPs em List
 
 ### 1. Catálogo de Livros
 
 <p>Crie uma classe chamada "CatalogoLivros" que possui uma lista de objetos do tipo "Livro" como atributo. Cada livro possui atributos como título, autor e ano de publicação. Implemente os seguintes métodos:
 
 - `adicionarLivro(String titulo, String autor, int anoPublicacao)`: Adiciona um livro ao catálogo.
-- `pesquisarPorAutor(String autor)`: Pesquisa livros por autor e retorna uma lista com os livros encontrados.
-- `pesquisarPorIntervaloAnos(int anoInicial, int anoFinal)`: Pesquisa livros publicados em um determinado intervalo de anos e retorna uma lista com os livros encontrados.
-- `pesquisarPorTitulo(String titulo)`: Pesquisa livros por título e retorna o primeiro livro encontrado.
+- `pesquisarPorAutor(String autor)`: PastaPs livros por autor e retorna uma lista com os livros encontrados.
+- `pesquisarPorIntervaloAnos(int anoInicial, int anoFinal)`: PastaPs livros publicados em um determinado intervalo de anos e retorna uma lista com os livros encontrados.
+- `pesquisarPorTitulo(String titulo)`: PastaPs livros por título e retorna o primeiro livro encontrado.
 </p>
 
 ### 2. Soma de Números
