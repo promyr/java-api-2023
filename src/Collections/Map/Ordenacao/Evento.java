@@ -1,4 +1,4 @@
-package Map.Ordenacao;
+package Collections.Map.Ordenacao;
 
 public class Evento {
     private String nome;
